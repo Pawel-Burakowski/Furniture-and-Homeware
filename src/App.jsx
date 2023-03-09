@@ -1,5 +1,12 @@
+import "./sass/main.scss"
+import { Navbar } from "./components"
+
 function App() {
-	return <div className='App'>dfgdfg</div>
+	return (
+		<>
+			<Navbar />
+		</>
+	)
 }
 
 export default App
