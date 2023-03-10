@@ -1,14 +1,16 @@
-import React from "react"
+import React, { useState } from "react"
 import { HiMenuAlt4, HiOutlineShoppingBag } from "react-icons/hi"
 import { FiSearch } from "react-icons/fi"
+import MenuNavigation from "./MenuNavigation"
 
 function Navbar() {
+	const [menuToggle, setMenuToggle] = useState(false)
 	return (
 		<>
 			<div className='header'>
 				<nav className='containerHeader'>
 					<div className='menuSearch'>
-						<div className='menu_icon'>
+						<div className='menu_icon' onClick={() => setMenuToggle(true)}>
 							<HiMenuAlt4 />
 						</div>
 						<FiSearch />
@@ -16,10 +18,11 @@ function Navbar() {
 					<div className='logo'>nummo</div>
 					<div className='accountAndCart'>
 						<a href=''>Konto</a>
-						<HiOutlineShoppingBag />
+						<HiOutlineShoppingBag  />
 					</div>
 				</nav>
 			</div>
+			<MenuNavigation setMenuToggle={setMenuToggle} menuToggle={menuToggle}/>
 		</>
 	)
 }
