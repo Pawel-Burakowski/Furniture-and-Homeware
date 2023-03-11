@@ -1,10 +1,11 @@
 import "./sass/main.scss"
-import { Navbar } from "./components"
+import { Home, Navbar } from "./components"
 
 function App() {
 	return (
 		<>
 			<Navbar />
+			<Home />
 		</>
 	)
 }

@@ -175,7 +175,6 @@ export const menuDatas = [
 			"Sofy jednoosobowe",
 			"Sofy dwuosobowe",
 			"Tapczany",
-			"Szezlong",
 		],
 	},
 	{
