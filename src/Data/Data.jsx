@@ -107,14 +107,14 @@ export const shoppingImgs = [
 		img: shopping1,
 		title: "Life could be a brezze",
 		text: "Z tropików do Twojej przestrzeni. Naturalne elementy z trzciny są kluczem do pozytywnej energii",
-		btnText: "Shop Cane",
+		btnText: "Kup Cane",
 	},
 	{
 		id: 2,
 		img: shopping2,
 		title: "Smooth",
-		text: "Zobacz produkty z wyprzedaży",
-		btnText: "Shop Velvet",
+		text: "Odkryj piękno prostoty wykonania",
+		btnText: "Kup Velvet",
 	},
 ]
 
@@ -215,14 +215,14 @@ export const menuDatas = [
 export const buyOnlineDatas = [
 	{
 		id: "1",
-		title: "Digital Payment Options",
+		title: "Metody płatności",
 		text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, saepe aperiam. Ex modi reiciendis facilis, incidunt nam vero a iusto impedit quisquam cumque ea delectus repellendus et odio aspernatur saepe explicabo! Vitae excepturi nisi facere nulla recusandae facilis qui iste quae corrupti alias cumque, sint nostrum totam, sunt, voluptatem commodi!",
 		btnText: "Read More",
 		img: [payment1, payment2, payment3, payment4],
 	},
 	{
 		id: 2,
-		title: "Delivery",
+		title: "Dostawa",
 		text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis sed quidem aliquam veritatis illo magni nemo minus temporibus saepe consequatur",
 		btnText: "Read more about delivery policy",
 	},

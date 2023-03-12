@@ -1,5 +1,11 @@
 import "./sass/main.scss"
-import { Home, Navbar, PopularProducts } from "./components"
+import {
+	Home,
+	Navbar,
+	PopularProducts,
+	Shopping,
+	BuyOnline,
+} from "./components"
 
 function App() {
 	return (
@@ -7,6 +13,8 @@ function App() {
 			<Navbar />
 			<Home />
 			<PopularProducts />
+			<Shopping />
+			<BuyOnline />
 		</>
 	)
 }
