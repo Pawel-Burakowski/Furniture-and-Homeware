@@ -5,6 +5,10 @@ import {
 	PopularProducts,
 	Shopping,
 	BuyOnline,
+	Reviews,
+	Contact,
+	Footer,
+	Scroll,
 } from "./components"
 
 function App() {
@@ -15,6 +19,10 @@ function App() {
 			<PopularProducts />
 			<Shopping />
 			<BuyOnline />
+			<Reviews />
+			<Contact />
+			<Footer />
+			<Scroll />
 		</>
 	)
 }
